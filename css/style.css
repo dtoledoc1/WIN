@@ -1,0 +1,43 @@
+/* Estilos generales para el contenedor */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #ff7300; /* Cambia el color de fondo si lo deseas */
+    border-bottom: 1px solid #ddd; /* Línea divisoria */
+}
+
+/* Estilos para el botón */
+.btn-link {
+    background-color: #fff; /* Fondo blanco */
+    border: 2px solid #FF5A5F; /* Borde de color característico de Airbnb */
+    color: #FF5A5F; /* Color del texto */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Efecto suave al hacer hover */
+}
+
+.btn-link:hover {
+    background-color: #ff7300; /* Fondo cuando se pasa el cursor */
+    color: #fff; /* Color del texto blanco cuando se pasa el cursor */
+}
+
+/* Estilos para las imágenes dentro del container y Fondo1 */
+.Fondo1 {
+    width: 100%; /* El contenedor ocupará todo el ancho disponible */
+    height: 50%; /* Ajusta la altura del contenedor según lo que necesites */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fondo1 img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 100%; /* La imagen ocupa toda la altura del contenedor */
+    object-fit: cover; /* La imagen se ajusta para cubrir todo el espacio sin distorsión */
+}
